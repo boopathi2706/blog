@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { useSearchParams } from "next/navigation";
 import data from "@/public/dataSet.json";

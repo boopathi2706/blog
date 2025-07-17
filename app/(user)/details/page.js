@@ -1,3 +1,4 @@
+"use client"
 import BlogDetails from '@/Component/BlogDetails'
 import React from 'react'
 
@@ -9,4 +10,4 @@ const Detail = () => {
   )
 }
 
-export default Detail
+export default Detail;
