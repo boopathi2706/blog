@@ -1,14 +1,8 @@
 "use client"
 
-
+import React, { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import React from "react";
 import BlogBox from "./BlogBox";
-
-
-import { useEffect, useState } from "react";
-
-
 
 const BlogDetails = () => {
   const searchParams = useSearchParams();
